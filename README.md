@@ -1,4 +1,4 @@
-# AI Task Prioritizer
+# AI Task Prioritizer React + TypeScript + AI + Vite
 
 The AI Task Prioritizer is a React application that helps you manage and prioritize your tasks with the assistance of OpenAI's GPT-4 model. It allows you to add tasks along with their priority, effort, and suggestions, and then leverages AI to prioritize them in the most efficient and impactful order. The app provides explanations for the prioritization and suggests ways to improve or approach each task.
 
@@ -28,51 +28,56 @@ Before you get started, ensure that you have the following installed:
 
 ### 1. Clone the Repository
 
-bash
-git clone https://github.com/your-username/ai-task-prioritizer.git
+git clone https://github.com/saipriya128/Prioritize_Tasks.git
+
 cd ai-task-prioritizer
+
 2. Install Dependencies
-bash
-Copy
-Edit
+   
 npm install
-3. Set Up OpenAI API Key
+
+4. Set Up OpenAI API Key
+   
 Obtain an API key from OpenAI.
+
 Replace the API key in src/App.tsx:
-ts
-Copy
-Edit
+
 const openai = new OpenAI({
   apiKey: "your-openai-api-key", // Replace with your OpenAI API key
   dangerouslyAllowBrowser: true,
 });
-4. Run the Application
-bash
-Copy
-Edit
+
+6. Run the Application
+
 npm run dev
+
 This will start the development server at http://localhost:3000.
 
 How to Use
-Add Tasks: You can add a task by entering its name, priority (High, Medium, Low), suggestions (any additional notes for the task), and effort (High, Medium, Low).
+
+Add Tasks: 
+
+You can add a task by entering its name, priority (High, Medium, Low), suggestions (any additional notes for the task), and effort (High, Medium, Low).
+
 Prioritize Tasks: Once you have added some tasks, click the "Prioritize Tasks" button to have the AI prioritize them based on their priority, effort, and suggestions. The prioritized list will be displayed below the button, along with a justification for each task's position.
+
 View Results: The tasks will be prioritized and displayed in the order suggested by the AI, with explanations of why each task was placed in its respective position.
 Contributing
+
 Feel free to fork this repository and submit pull requests. You can improve the app by:
 
 Adding more features (e.g., due dates, categories, etc.).
 Improving the UI.
+
 Enhancing the AI's prompt to provide better suggestions.
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 Acknowledgements
+
 OpenAI for providing the GPT-4 API.
+
 React for building the frontend.
+
 Vite for fast and modern web development.
-markdown
-Copy
-Edit
 
 ### Steps for Use:
 
